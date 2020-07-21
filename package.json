@@ -1,0 +1,32 @@
+{
+  "name": "cypress_quete4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:chrome": "cypress run --record --key 6b97ce1f-b39e-4119-b834-9170a0e6e8a7 --browser chrome --reporter spec",
+    "cy:run:report": "cypress run --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethan081/cypressQuete04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ethan081/cypressQuete04/issues"
+  },
+  "homepage": "https://github.com/Ethan081/cypressQuete04#readme",
+  "devDependencies": {
+    "cypress": "^4.10.0",
+    "cypress-file-upload": "^4.0.7",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.1.0",
+    "mochawesome-report-generator": "^5.1.0"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.0"
+  }
+}
